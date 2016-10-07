@@ -1,0 +1,6 @@
+#!/bin/bash
+
+~/Desktop/pdf2svg/inkscape \
+  --without-gui \
+  --file="$1" \
+  --export-plain-svg="$HOME/Desktop/output.svg" 
